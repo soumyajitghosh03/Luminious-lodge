@@ -1,0 +1,316 @@
+.body{
+    background-color: rgb(71, 214, 214);
+}
+
+.banner{
+    background-image: url("Gemini_Generated_Image_i6sb9wi6sb9wi6sb.jpeg");
+    height: 575px;
+}
+
+.navbar{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Serif;
+}
+
+.nav-logo {
+    height: 100%;
+    width: 6%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav_two{
+    height: 100%;
+    width: 54%;
+    /* background-color: rgb(94, 228, 17); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_three{
+    height: 100%;
+    width: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* glowing text */
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name{
+    width: 70%;
+}
+
+  .logo-container {
+    position: relative;
+    
+    &:before {
+      content:  "";
+      position: absolute;
+      top:      calc( 100% - 2px );
+      width:    100%;
+      height:   4px;
+      background-color: #cf0000;
+      transform-origin: center center;
+      transform: scaleX( 0 );
+      
+      animation: line-animation 3s ease infinite alternate;
+    }
+    
+    h1#page-logo {
+      font: bold 6rem 'Arial', sans-serif;
+      
+      animation: clip-path-reveal-1 3s ease infinite alternate;
+    }
+  }
+  
+  @keyframes line-animation {
+    0% { transform: scaleX( 0 ); }
+    15% { transform: scaleX( 0 ); }
+    20%, 25% { transform: scaleX( 1 ); top: calc( 100% - 2px ); }
+    50% { transform: scaleX( 1 ); top: 0px; }
+    70% { transform: scaleX( 0.2 ); top: 0px; }
+    80%, 100% { transform: scaleX( 0.2 ); top: 0px; }
+  }
+  
+  @keyframes clip-path-reveal-1 {
+    0%, 25% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); }
+    50% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
+  }
+
+.tagline{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line{
+    width: 60%;
+}
+
+.lof{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lof1{
+    width: 50%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lof2{
+    width: 50%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardg{
+    width: 100%;
+    height: 350px;
+    /* background-color: #cf0000; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardg1{
+    height: 100%;
+    background-image: url(hotel.avif);
+    background-size: cover;
+}
+
+.cardg2{
+    height: 100%;
+    background-image: url("a32cf42ce8ffb322a4319b007c3ea16667df8ad1-1050x840.avif");
+    background-size: cover;
+}
+
+.cardg3{
+    height: 100%;
+    background-image: url("48611dc0f5181acea9be691cdcfac8a267cac15e-1400x1120.avif");
+    background-size: cover;
+}
+
+.one{
+    width: 30%;
+}
+.two{
+    width: 30%;
+}
+.three{
+    width: 30%;
+}
+
+.one:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.two:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.three:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardg12{
+    height: 100%;
+    background-image: url("beach-wedding.jpg");
+    background-size: cover;
+}
+
+.cardg22{
+    height: 100%;
+    background-image: url("city-weddings.jpg");
+    background-size: cover;
+}
+
+.cardg32{
+    height: 100%;
+    background-image: url("royal-wedding.jpg");
+    background-size: cover;
+}
+
+.lastimage{
+    height: 500px;
+    background-image: url("364ff44bd95cb1d3fba126a6e904b6a1040b07f0-2880x1155.avif");
+    background-size: cover;
+}
+
+.care{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.care1{
+    width: 50%;
+    background-image: url("we-care.jpg");
+    background-size: cover;
+}
+.care2{
+    width: 50%;
+    background-color: #cf0000;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color:white;
+    color: black;
+    height: 200px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    font-size: 100px;
+    padding-left: 100px;
+}
+
+.foot-panel2 {
+    background-color: white;
+    color: black;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+    color: black;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.foot-panel3 {
+    background-color: white;
+    color: gray;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+
+.pages {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
